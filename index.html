@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ayush Enterprises</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: white">
+            <!-- <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="height: 100px;"> -->
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top"  style="background-color: #1e2973 !important; " >
+
+              <div class="container-fluid">
+                <a class="navbar-brand margin-auto-center" href="index.html">
+                  <img
+                    src="Ayush-Enterprises-logo.png"
+                    alt="Logo" width="35" height="30" class="d-inline-block align-text-top">
+                  Ayush Enterprises
+                </a>
+                <button class="navbar-toggler toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+                  aria-controls="offcanvasDarkNavbar">
+                  <i class="bi bi-droplet-half"></i>
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-droplet-half" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M7.21.8C7.69.295 8 0 8 0c.109.363.234.708.371 1.038.812 1.946 2.073 3.35 3.197 4.6C12.878 7.096 14 8.345 14 10a6 6 0 0 1-12 0C2 6.668 5.58 2.517 7.21.8zm.413 1.021A31.25 31.25 0 0 0 5.794 3.99c-.726.95-1.436 2.008-1.96 3.07C3.304 8.133 3 9.138 3 10c0 0 2.5 1.5 5 .5s5-.5 5-.5c0-1.201-.796-2.157-2.181-3.7l-.03-.032C9.75 5.11 8.5 3.72 7.623 1.82z"/>
+                  <path fill-rule="evenodd" d="M4.553 7.776c.82-1.641 1.717-2.753 2.093-3.13l.708.708c-.29.29-1.128 1.311-1.907 2.87l-.894-.448z"/>
+                </svg>
+                </button>
+                
+                <div class="offcanvas offcanvas-end" style="background-color : #1e2973;" tabindex="-1" id="offcanvasDarkNavbar"
+                  aria-labelledby="offcanvasDarkNavbarLabel">
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title text-white" id="offcanvasDarkNavbarLabel">Ayush Enterprises</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                      aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                      <li class="nav-item navbar-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item navbar-item">
+                        <a class="nav-link" href="about.html" target="_blank">About Us</a>
+                      </li>
+                      <li class="nav-item dropdown navbar-item">
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                          aria-expanded="false">
+                          Contact Us
+                        </a>
+                        <ul class="dropdown-menu" style="background-color : #0c196e;">
+                          <li><a class="dropdown-item text-white hover-dropdown dropdown-item-hover" href="ForEnquiry.html">For Enquiry</a></li>
+                          <li>
+                            <hr class="dropdown-divider">
+                          </li>
+                          <li><a class="dropdown-item text-white dropdown-item-hover" href="ForService.html">For Service</a></li>
+                        </ul>
+                      </li>
+                    </li>
+                    <li class="nav-item navbar-item">
+                      <a class="nav-link" href="FAQs.html" target="_blank">FAQs</a>
+                    </li>
+                    <li class="nav-item navbar-item">
+                      <a class="nav-link" href="#icon-grid">Services</a>
+                    </li>
+                      <footer class="py-3 my-4 bg-white visibility-hidden">
+
+                        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                          <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted color-white foot-hover">Home</a></li>
+                          <li class="nav-item"><a href="FAQs.html" class="nav-link px-2 text-muted color-white foot-hover" target="_blank">FAQs</a></li>
+                          <li class="nav-item"><a href="ForService.html" class="nav-link px-2 text-muted color-white foot-hover" target="_blank">Contact Us</a></li>
+                          <li class="nav-item"><a href="#icon-grid" class="nav-link px-2 text-muted color-white foot-hover">Services</a></li>
+                          <li class="nav-item"><a href="about.html" class="nav-link px-2 text-muted color-white foot-hover" target="_blank">About Us</a></li>
+                        </ul>
+                        <p class="text-center text-muted color-white">© 2022 Company, Samrat Private Ltd.</p>
+                        <div class="container d-flex justify-content-center" >
+                          <ul class="nav col-md-4 justify-content-center list-unstyled d-flex" style="height: 40px;">
+                            <a href="">
+                              <i class="bi bi-facebook margin-lr"></i>
+                              <svg class="logo-size" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-facebook"
+                                viewBox="0 0 16 16" style="color:#250373;">
+                                <path
+                                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                              </svg>
+                            </a>
+                            <a href="https://instagram.com/bad_captain_adi358?igshid=YmMyMTA2M2Y=">
+                              <i class="bi bi-instagram margin-lr"></i>
+                              <svg class="logo-size" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-instagram"
+                                viewBox="0 0 16 16" style="color:#250373;">
+                                <path
+                                  d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                              </svg>
+                            </a>
+                            <a href="">
+                              <i class="bi bi-messenger margin-lr"></i>
+                              <svg class="logo-size" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-messenger"
+                                viewBox="0 0 16 16" style="color:#250373;">
+                                <path
+                                  d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76zm5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z" />
+                              </svg>
+                            </a>
+                            <a href="">
+                              <i class="bi bi-telegram margin-lr"></i>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                class="bi bi-telegram logo-size" viewBox="0 0 16 16" style="color:#250373;">
+                                <path
+                                  d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z" />
+                              </svg>
+                            </a>
+                            <a href="">
+                              <i class="bi bi-twitter margin-lr"></i>
+                              <svg class="logo-size" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-twitter"
+                                viewBox="0 0 16 16" style="color:#250373;">
+                                <path
+                                  d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                              </svg>
+                            </a>
+                        </ul>
+                        </div>
+                      <p class="text-center text-muted color-white" >Designed & Developed by Yash Tayade</p>
+                      </footer>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </nav>
+
+            <main>
+            <div class="container" style="margin-top: 100px;">
+              <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://media.istockphoto.com/id/1281596009/photo/house-water-filtration-system-osmosis-deionization-system-installation-of-water-purification.jpg?b=1&s=170667a&w=0&k=20&c=TLSsb5HX4BADa-U1m-wP_t6c-LoGSUlpl3xG94HmiVk=" class="d-block w-100 img-fluid img-size" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://media.istockphoto.com/id/691867994/photo/close-up-of-domestic-water-purification-filters.jpg?s=612x612&w=0&k=20&c=OFT2SS7PxQ_gpxULlwmacl1IeUc79b8n_PrGcHJdce0=" class="d-block w-100 img-fluid img-size" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://media.istockphoto.com/id/1172864528/photo/under-sink-water-filter-system-in-a-hospital.jpg?s=612x612&w=0&k=20&c=1cwIU29jsRjVw5Dv6SjOTYKR0yjo6aGDFPJ62FzwDDI=" class="d-block w-100 img-fluid img-size" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://media.istockphoto.com/id/1062923732/photo/ro-water-purification-system.jpg?s=612x612&w=0&k=20&c=Zj_01jM48-DYl6KBAXkluDb3laLxp5PCLWMUdCig1aE=" class="d-block w-100 img-fluid img-size" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            
+            <!-- marcketing -->
+
+            <div class="container marketing " style="margin-top: 100px;">
+              <div class="row">
+                <div class="col-lg-4 col-md-4" style="border:.5px solid rgb(225, 225, 225); padding: 20px 20px 0 20px;">
+                  <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg> -->
+                  <div class="container"><img class="img-fluid img-thumbnail rounded marcketing-height" src="https://media.istockphoto.com/id/1409041739/photo/water-purification-filter-install.jpg?s=612x612&w=0&k=20&c=cMxe0pkHGzOKKyH4Rh_tKHMYCY7J6pR0py6ATumbhVY=" alt=""></div>
+                  <br>
+                    <h2 class="fw-normal">Purifier Installation</h2>
+                    <p class="lead">Installing a water purifier in your home can provide clean, safe drinking water for you and your family.</p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4 col-md-4" style="border:.5px solid rgb(225, 225, 225); padding: 20px 20px 0 20px;">
+                  <div class="container"><img class="img-fluid img-thumbnail rounded marcketing-height" src="https://media.istockphoto.com/id/1076700334/photo/dirty-used-cartridge-filter-of-water-purifier-filtration.jpg?s=612x612&w=0&k=20&c=F8xSnD4QpFXUmBqR3LApvL-OmaCUOGGWpw1xt_VLJZY=" alt=""></div><br>
+
+                  <h2 class="fw-normal">Filter Changing</h2>
+                  <p class="lead">Changing the filters in your water purifier is an important maintenance task that ensures your water purifier operate efficiently and effectively.</p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4 col-md-4" style="border:.5px solid rgb(225, 225, 225); padding: 20px 20px 0 20px;">
+                  <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg> -->
+                  <div class="container"><img class="img-fluid img-thumbnail rounded marcketing-height" src="https://media.istockphoto.com/id/1062922292/photo/ro-water-purification-system.jpg?s=612x612&w=0&k=20&c=MEWUpwMnHLQfnCl_sVGWJYcwiZCtLvZK_PwgK8lnX14=" alt=""></div><br>
+                  <h2 class="fw-normal">Membrane Changing</h2>
+                  <p class="lead">The membrane in a water purifier is a critical component that removes impurities and contaminants from water.</p>
+                </div><!-- /.col-lg-4 -->
+              </div><!-- /.row -->
+          
+          
+              <!-- START THE FEATURETTES -->
+          
+              <hr class="featurette-divider my-4">
+              <div class="shadow p-3 mb-5 bg-body-tertiary rounded my-4">
+              <div class="row featurette">
+                <div class="col-md-8">
+                  <h2 class="featurette-heading fw-normal lh-1 text-color-special">UV Water Purifiers : <span class="text-muted">Protect Your Health and Your Wallet!</span></h2><br><br>
+                  <p class="lead">UV water purifiers are a highly effective and efficient way to purify water. They use ultraviolet light to kill harmful bacteria, viruses, and other microorganisms that can cause waterborne illnesses. UV water purifiers are an increasingly popular choice for people who want to ensure that their water is safe and pure, without the use of chemicals.</p>
+                </div>
+                <div class="col-md-3 img-center">
+                  <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+                  <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="https://www.kent.co.in/images/v3/grand-plus-v3.png" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+                  <img class="img-fluid" src="https://www.havells.com/HavellsProductImages/HavellsIndia/Content/Consumer/Water-Purifier/Uv-Water-Purifiers/GHWUOAB060/cover.png" alt="please reload" style="width: 250px;">
+                </div>
+              </div>
+              <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                  <h2 class="featurette-heading fw-normal lh-1">How does a UV water purifier work?</h2><br><br>
+                  <p class="lead">UV water purifiers work by exposing water to ultraviolet light. The UV light kills bacteria, viruses, and other microorganisms that are present in the water, making it safe to drink. Unlike chemical water purification methods, which can leave behind harmful byproducts, UV water purifiers do not add anything to the water. They simply use a natural process to kill harmful microorganisms.
+
+                  </p>
+                </div>
+                
+                <div class="col-md-5 order-md- img-center ">
+                  <img class="img-fluid" src="https://www.kent.co.in/images/v3/KENT-Maxx-v3.png" alt="" width="500px">
+                </div>
+              </div>
+              <div class="row featurette">
+                <div class="col-md-7">
+                  <h2 class="featurette-heading fw-normal lh-1">Why choose a UV water purifier?</h2><br><br>
+                  <p class="lead">There are several reasons why people choose UV water purifiers. First and foremost, they are highly effective at purifying water. UV water purifiers can eliminate up to 99.99% of harmful bacteria and viruses, making the water safe to drink. Additionally, they do not add any chemicals to the water, making them a safe and natural choice for water purification. UV water purifiers are also easy to use and maintain, and they are energy-efficient, consuming very little electricity.
+                  </p>
+                </div>
+                <div class="col-md-5 img-center">
+                  <img class="img-fluid" src="https://www.kent.co.in/images/v3/KENT-Maxx-v3.png" alt="">
+                </div>
+              </div>
+              <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                  <h2 class="featurette-heading fw-normal lh-1">What are the benefits of using a UV water purifier?</h2><br><br>
+                  <p class="lead">
+                    There are several benefits to using a UV water purifier. First and foremost, it provides safe and pure drinking water. This can help to prevent waterborne illnesses and keep you and your family healthy. Additionally, UV water purifiers do not add any chemicals to the water, making them a safe and natural choice for water purification. They are also easy to use and maintain, and they can be installed in a variety of settings, including homes, offices, and other public spaces.
+                    <br>
+                    If you're looking for an effective and natural way to purify your water, a UV water purifier may be the right choice for you. With its high level of effectiveness, low maintenance requirements, and energy-efficient operation, a UV water purifier can help to keep you and your family safe and healthy.
+
+                  </p>
+                </div>
+                
+                <div class="col-md-5 order-md-1 img-center">
+                  <img class="img-fluid" src="https://www.kent.co.in/images/v3/KENT-Maxx-v3.png" alt="" width="500px">
+                </div>
+              </div>
+            </div>
+
+              <!-- <hr class="featurette-divider"> -->
+              <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
+              <div class="row featurette">
+                <div class="col-md-7">
+                  <h2 class="featurette-heading fw-normal lh-1">RO Water Purifiers : <span class="text-muted">Say Goodbye to Harmful Chemicals and Hello to Pure Water</span></h2><br><br>
+                  <p class="lead">RO (Reverse Osmosis) water purifiers are one of the most popular types of water purifiers available today. They use a special membrane to remove impurities and contaminants from water, resulting in clean and safe drinking water.
+                  </p>
+                </div>
+                <div class="col-md-5 img-center">
+                  <img class="img-fluid" src="https://www.kent.co.in/images/v3/grand-plus-v3.png" alt="">
+                </div>
+              </div>
+              <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                  <h2 class="featurette-heading fw-normal lh-1">How does an RO water purifier work?</h2><br><br>
+                  <p class="lead">RO water purifiers work by forcing water through a semi-permeable membrane that blocks impurities and contaminants. The membrane has tiny pores that allow only pure water molecules to pass through, while blocking contaminants like bacteria, viruses, and chemicals. The result is clean and safe drinking water that is free from harmful substances.</p>
+                </div>
+                <div class="col-md-5 order-md-1 img-center">
+                  <img class="img-fluid" src="https://www.kent.co.in/images/v3/grand-plus-v3.png" alt="" width="500px">
+                </div>
+              </div>
+              <div class="row featurette">
+                <div class="col-md-7">
+                  <h2 class="featurette-heading fw-normal lh-1">Why choose an RO water purifier?</h2><br><br>
+                  <p class="lead">There are several reasons why people choose RO water purifiers. First and foremost, they are highly effective at purifying water. RO water purifiers can eliminate up to 99% of impurities and contaminants, making the water safe to drink. Additionally, they do not add any chemicals to the water, making them a safe and natural choice for water purification.
+                  <br>
+                    RO water purifiers can also remove unwanted minerals from the water, like lead, arsenic, and fluoride. These minerals can be harmful to health when consumed in large quantities. RO water purifiers can also improve the taste and odor of water, making it more palatable.
+                  </p>
+                </div>
+                <div class="col-md-5 img-center">
+                  <img class="img-fluid" src="https://www.kent.co.in/images/v3/grand-plus-v3.png" alt="">
+                </div>
+              </div>
+          </div>
+              <!-- <hr class="featurette-divider"> -->
+          <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
+              <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                  <h2 class="featurette-heading fw-normal lh-1">Alkaline Water Purifiers : <span class="text-muted">Say Goodbye to Acidic Water with Our Alkaline Water Purifier</span></h2><br><br>
+                  <p class="lead">An alkaline water purifier is a type of water purifier that not only removes impurities and contaminants from water but also increases its pH level to make it more alkaline. This is achieved through a special type of filter that adds minerals like calcium, magnesium, and potassium to the water, which increases its alkalinity.</p>
+                </div>
+                <div class="col-md-5 order-md-1 img-center">
+                  <img class="img-fluid" src="https://www.kent.co.in/images/v3/grand-plus-v3.png" alt="" width="500px">
+                </div>
+              </div>
+              <div class="row featurette">
+                <div class="col-md-7">
+                  <h2 class="featurette-heading fw-normal lh-1">Why choose an Alkaline Water Purifier?</h2><br><br>
+                  <p class="lead"><b class="text-muted">There are several reasons why you might choose an alkaline water purifier over other types of water purifiers. Here are some of the main benefits of using an alkaline water purifier:</b>
+                    <br><br>
+                    1. Improves the taste of water : Alkaline water has a smoother, sweeter taste than regular water, which many people find more appealing. If you're someone who doesn't like the taste of tap water or bottled water, an alkaline water purifier can make your drinking water more palatable.
+                    <br>
+                   
+                  </p>
+                </div>
+                <div class="col-md-5 img-center">
+                  <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+                  <img class="img-fluid" src="data:image/jpeg;base64,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" alt="" width="500px">
+                </div>
+              </div>
+              <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                  <p class="lead">
+                    2. Promotes better hydration : The higher pH level of alkaline water means that it is more easily absorbed by the body, which can help to improve hydration. Proper hydration is important for many bodily functions, including digestion, metabolism, and overall health and wellness.
+                    <br>
+                    3. Provides essential minerals : An alkaline water purifier typically adds minerals like calcium, magnesium, and potassium to the water, which are essential for good health. These minerals can help to support bone density, prevent muscle cramps, and support cardiovascular health.
+                  </p>
+                </div>
+                <div class="col-md-5 order-md-1 img-center">
+                   <img class="img-fluid" src="data:image/jpeg;base64,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" alt="" width="500px">
+                </div>
+              </div>
+              </div>
+              <hr class="featurette-divider my-4">
+          
+            </div>
+          
+            <div class="container px-4 py-5 shadow p-3 mb-5 bg-body-tertiary rounded my-4" id="icon-grid" style="background-color:white;">
+              <h2 class="pb-2 border-bottom">Our Services</h2>
+          
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+                <div class="col d-flex align-items-start">
+                  <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"></use></svg>
+                  <div>
+                    <h3 class="fw-bold mb-0 fs-4">Installation of Purifier</h3><br>
+                    <p>We offer professional installation services to ensure that your water purifier is installed correctly and functioning at its best. Our technicians are experienced and knowledgeable, and can help you find the best location for your water purifier and make sure that all the connections are secure.
+                    </p>
+                  </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                  <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"></use></svg>
+                  <div>
+                    <h3 class="fw-bold mb-0 fs-4">Repair and Maintenance</h3>
+                    <p>If you're experiencing any issues with your water purifier, our technicians can diagnose and repair the problem quickly and efficiently. We also offer regular maintenance services to keep your water purifier functioning at its best, including filter replacements and system cleaning.
+                    </p>
+                  </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                  <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"></use></svg>
+                  <div>
+                    <h3 class="fw-bold mb-0 fs-4">Water Quality Testing</h3><br>
+                    <p>We offer water quality testing services to ensure that your water purifier is doing its job effectively. Our tests can identify any contaminants in your water and determine whether your water purifier is removing them as it should.
+                    </p>
+                  </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                  <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"></use></svg>
+                  <div>
+                    <h3 class="fw-bold mb-0 fs-4">Consultation and Advice</h3>
+                    <p>Our experts can provide consultation and advice on choosing the best water purifier for your needs. We can help you select the right system for your home or office, based on your water quality, usage, and budget.</p>
+                  </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                  <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#speedometer2"></use></svg>
+                  <div>
+                    <h3 class="fw-bold mb-0 fs-4">Filter Replacement</h3><br>
+                    <p>Over time, the filters in your water purifier will become clogged with contaminants and debris, reducing their effectiveness. We offer filter replacement services to ensure that your water purifier is always functioning at its best.
+                    </p>
+                  </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                  <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#toggles2"></use></svg>
+                  <div>
+                    <h3 class="fw-bold mb-0 fs-4">Membrane Replacement</h3>
+                    <p>Membrane replacement is an important part of maintaining a high-quality water purifier. The membrane is the most critical part of the water purifier as it is responsible for removing contaminants and impurities from your water.</p><p class="p-hidden">Over time, the membrane can become clogged or worn out, which can reduce the effectiveness of the purifier.</p>
+                  </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                  <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#geo-fill"></use></svg>
+                  <div>
+                    <h3 class="fw-bold mb-0 fs-4"> Water Softner Plant</h3><br>
+                    <p>A water softener plant is a facility that removes hard minerals from water, such as calcium and magnesium. Hard water can cause various issues, including clogged pipes, soap scum, and reduced efficiency of appliances. Our water softener plant is designed to remove these minerals, providing you with clean, softened water for your home or business.</p>
+                  </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                  <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#tools"></use></svg>
+                  <div>
+                    <h3 class="fw-bold mb-0 fs-4">Commercial and Industrial Plant</h3>
+                    <p>An industrial and commercial water purifier plant is a facility that purifies water to meet the specific needs of industries, businesses, and communities. Our water purifier plant is designed to remove contaminants from water, such as bacteria, viruses, chemicals, and other impurities. We provide customized solutions to meet the unique water treatment needs of our clients.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </main>
+
+  <footer class="py-3 my-4 bg-white ">
+
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted foot-hover">Home</a></li>
+      <li class="nav-item"><a href="FAQs.html" class="nav-link px-2 text-muted foot-hover" target="_blank">FAQs</a></li>
+      <li class="nav-item"><a href="ForService.html" class="nav-link px-2 text-muted foot-hover" target="_blank">Contact Us</a></li>
+      <li class="nav-item"><a href="#icon-grid" class="nav-link px-2 text-muted foot-hover">Services</a></li>
+      <li class="nav-item"><a href="about.html" class="nav-link px-2 text-muted foot-hover" target="_blank">About Us</a></li>
+    </ul>
+    <p class="text-center text-muted">© 2022 Company, Samrat Private Ltd.</p>
+    <div class="container d-flex justify-content-center" style="height: 20px;">
+      <ul class="nav col-md-4 justify-content-center list-unstyled d-flex">
+        <a href="">
+          <i class="bi bi-facebook margin-lr"></i>
+          <svg class="logo-size" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-facebook"
+            viewBox="0 0 16 16" style="color:#250373;">
+            <path 
+              d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+          </svg>
+        </a>
+        <a href="https://instagram.com/bad_captain_adi358?igshid=YmMyMTA2M2Y=">
+          <i class="bi bi-instagram margin-lr"></i>
+          <svg class="logo-size" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-instagram"
+            viewBox="0 0 16 16" style="color:#250373;">
+            <path
+              d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+          </svg>
+        </a>
+        <a href="">
+          <i class="bi bi-messenger margin-lr"></i>
+          <svg class="logo-size" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-messenger"
+            viewBox="0 0 16 16" style="color:#250373;">
+            <path
+              d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76zm5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z" />
+          </svg>
+        </a>
+        <a href="">
+          <i class="bi bi-telegram margin-lr"></i>
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+            class="bi bi-telegram logo-size" viewBox="0 0 16 16" style="color:#250373;">
+            <path
+              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z" />
+          </svg>
+        </a>
+        <a href="">
+          <i class="bi bi-twitter margin-lr"></i>
+          <svg class="logo-size" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-twitter"
+            viewBox="0 0 16 16" style="color:#250373;">
+            <path
+              d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+          </svg>
+        </a>
+    </div>
+    </ul>
+    <p class="text-center text-muted" style="margin-top: 15px;">Designed & Developed by Yash Tayade</p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+</html>
